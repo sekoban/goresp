@@ -19,6 +19,8 @@ This simple server replies to your requests with a JSON document containing the 
 }
 ```
 
+The server also provides a "special" URL to give an overview of all the calls received, and also logs to STDOUT. Use `http://<IP address or FQDN>/listall` to get the overview information in your browser.
+
 # Build and Run
 
 ```shell
