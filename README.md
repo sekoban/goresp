@@ -5,7 +5,9 @@ This simple server replies to your requests with a JSON document containing the 
 ```json
 {
   "cookie_names": [
-    index: "cookie name"
+    "cookie name 1",
+    "cookie name 2",
+    ...
   ],
   "count": <Number of requests for a specific path from a specific source IP>,
   "ip": "Source IP (determined from either last hop or HTTP Heasder x_forwarded_for",
